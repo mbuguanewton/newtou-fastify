@@ -1,0 +1,38 @@
+{
+    "name": "fastify.api",
+    "version": "1.0.0",
+    "description": "Learning fastify",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "dev": "nodemon server.js",
+        "prod": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/newtfrank/newtou-fastify.git"
+    },
+    "keywords": [
+        "Fastify",
+        "expressjs"
+    ],
+    "author": "Newton Mbugua",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/newtfrank/newtou-fastify/issues"
+    },
+    "homepage": "https://github.com/newtfrank/newtou-fastify#readme",
+    "dependencies": {
+        "@mongoosejs/double": "^0.2.0",
+        "config": "^3.3.6",
+        "esm": "^3.2.25",
+        "fastify": "^3.20.1",
+        "fastify-mongodb": "^4.0.1",
+        "fastify-plugin": "^3.0.0",
+        "mongoose": "^5.13.6",
+        "pino": "^6.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
